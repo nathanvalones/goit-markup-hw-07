@@ -839,7 +839,7 @@ body {
 /* Mobile View */
 @media (min-width: 428px) {
     .container {
-        width: 480px;
+        width: 428px;
     }
 }
 
