@@ -137,12 +137,16 @@ body {
 }
 
 .container {
-    width: 1440px;
+    /* width: 1440px; */
     padding: 24px 0 0 0;
     gap: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .d-flex {
@@ -830,7 +834,37 @@ body {
     fill: var(--WHITE);
 }
 
+/* CSS Media Query */
 
+/* Mobile View */
+@media (min-width: 428px) {
+    .container {
+        width: 480px;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 427px) {
+
+}
 
 
 
