@@ -752,6 +752,7 @@ body {
     .container {
         width: 428px;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -783,6 +784,8 @@ body {
         width: 264px;
         margin-right: 24px;
     }
+
+  
 }
 
 @media (min-width: 1200px) {
@@ -802,6 +805,21 @@ body {
 
     .customer-icon {
         flex-basis: calc(100% / 6 - 30px);
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 1199px;
+    }
+
+    .about-icon {
+        display: none;
+    }
+
+    .what-we-do {
+        display: none;
     }
 }
 
@@ -874,12 +892,12 @@ body {
         width: 100%;
     }
 
-    .mobile-nav {
+    /* .mobile-nav {
         position: relative;
         z-index: 999;
     }
 
     .project-image {
         z-index: 1;
-    }
+    } */
 }
