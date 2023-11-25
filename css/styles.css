@@ -227,7 +227,7 @@ body {
 }
 
 .modal {
-    background-color: var(--DAIRY);
+    background-color: var(--dairy);
     width: 408px;
     height: 584px;
     border-radius: 4px;
@@ -238,7 +238,7 @@ body {
     margin: 24px 24px 536px 360px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 100%;
-    background-color: var(--CORNFLOWER);
+    background-color: var(--cornflower);
     width: 24px;
     height: 24px;
 }
