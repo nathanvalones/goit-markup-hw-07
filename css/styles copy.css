@@ -647,22 +647,8 @@ body {
 
 .footer-text {
     color: var(--cloud);
-    line-height: 1.5;
-    /* 150% */
-    /* 
-        line-height: 1;
-        1 = 16px 
-        1.5 = 24px
-    */
+    line-height: 150%;
     letter-spacing: 0.32px;
-}
-
-.footer-social {
-    /* margin-left: 120px; */
-}
-
-.footer-sub {
-    /* margin-left: 80px; */
 }
 
 .footer .team-socials-icon {
